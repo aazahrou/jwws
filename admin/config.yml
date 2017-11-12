@@ -1,4 +1,5 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-  media_folder: "/images" # Media files will be stored in the repo under images/
+  media_folder: "images/uploads"
+  public_folder: "images" # The src attribute for uploaded media will begin with images/uploads ....
