@@ -1,4 +1,4 @@
 backend:
   name: github
   branch: master # Branch to update (optional; defaults to master)
-  media_folder: "/images"
+  media_folder: ""
