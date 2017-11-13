@@ -17,6 +17,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
 
 # Access to CMS
-  api_root: https://api.github.com
-  site_domain: wwsjekyll.netlify.com
-  base_url: https://api.netlify.com
+api_root: https://api.github.com
+site_domain: wwsjekyll.netlify.com
+base_url: https://api.netlify.com
