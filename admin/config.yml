@@ -15,3 +15,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+
+# Access to CMS
+  api_root: https://api.github.com
+  site_domain: wwsjekyll.netlify.com
+  base_url: https://api.netlify.com
