@@ -6,6 +6,8 @@ backend:
 media_folder: "assets/uploads"
 public_folder: "assets"
 
+publish_mode: editorial_workflow
+
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Post" # Used in the UI, e.g., "New Post"
